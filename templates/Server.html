@@ -1,0 +1,39 @@
+{% extends "Server/index.html" %}
+
+{% load static %}
+{% block content %}
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
+    <title>Server</title>
+  </head>
+    <h1 style="color: aliceblue">SERVER</h1>
+        <h2 style="color: aliceblue">INFO: {{ NUM}}</h2>
+
+    <div class="buttons">
+      <a href="{%url 'Server' %}"><button  class="btn" >RESTART SERVER</button></a>
+      <a href="{%url 'CONETC' %}"><button  class="btn" >SERVER ON</button></a>
+      <a href="{%url 'CLIENT' %}"><button class="btn">ADD CLIENT</button></a>
+        <a href="{%url 'INFO' %}"><button class="btn">INFO</button></a>
+    </div>
+    <div class="cargo">
+      <form action="{%url 'Server'%}" class="inKey" method="post">
+        {% csrf_token %}
+        <label style="color: #9d9a9a;font-size: 17px;" class="api">Num of Clients</label>
+        <input style="color: #ffffff;background-color: #1d1d1dba;"class="apiInput;" name="api">
+        <label style="color: #9d9a9a;font-size: 17px;"class="secrt">Message</label>
+        <input style="color: #ffffff;background-color: #1d1d1dba;"class="secretInput" name="secret">
+        <button type="submit" class="send">send</button>
+      </form>
+    </div>
+
+    <div class="BuyRec">
+        <p style = "color: #043c29;font-size: 24px;", class="buy"></p>
+        <a style = "color: #a5adaa;font-size: 24px;", class="coin"></a>
+        <p style = "color: #043c29;font-size: 24px;", class="buy"></p>
+        <p style = "color: #a90000;font-size: 24px;", class="sell"></p>
+    </div>
+{%endblock %}
+

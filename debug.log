@@ -1,0 +1,538 @@
+2023-05-07 03:14:13,357 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-05-07 03:14:15,230 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:14:15,427 django.server INFO     "GET /static/style.css HTTP/1.1" 304 0
+2023-05-07 03:14:32,046 django.server INFO     "POST / HTTP/1.1" 200 1592
+2023-05-07 03:14:39,552 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:14:40,017 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:14:40,533 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592
+2023-05-07 03:14:40,534 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 678
+2023-05-07 03:17:01,931 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-05-07 03:17:05,538 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:17:31,682 django.server INFO     "POST / HTTP/1.1" 200 1592
+2023-05-07 03:17:34,024 django.request ERROR    Internal Server Error: /templates/Server.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 91, in CON
+    l_mes = (list(split(data,int(NUMOFCL))))
+                             ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1aa aa2 3aaa'
+2023-05-07 03:17:34,026 django.server ERROR    "GET /templates/Server.html HTTP/1.1" 500 69716
+2023-05-07 03:17:49,865 django.server INFO     "POST / HTTP/1.1" 200 1592
+2023-05-07 03:17:56,672 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:17:58,000 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:17:58,690 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 678
+2023-05-07 03:17:58,690 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592
+2023-05-07 03:23:11,208 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\settings.py changed, reloading.
+2023-05-07 03:24:21,346 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-05-07 03:24:36,352 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:24:41,851 django.server INFO     "POST / HTTP/1.1" 200 1592
+2023-05-07 03:24:44,536 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:24:44,829 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 678
+2023-05-07 03:24:45,157 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592
+2023-05-07 03:24:45,159 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 678
+2023-05-07 03:25:28,567 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\settings.py changed, reloading.
+2023-05-07 03:27:55,978 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-05-07 03:28:37,511 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:28:51,459 django.server INFO     "POST / HTTP/1.1" 200 1592
+2023-05-07 03:28:54,138 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 681
+2023-05-07 03:28:54,415 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 680
+2023-05-07 03:28:54,851 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592
+2023-05-07 03:28:54,851 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 680
+2023-05-07 03:29:35,455 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:29:37,280 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:29:37,439 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:29:37,603 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:29:37,754 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:29:44,524 django.server INFO     "POST / HTTP/1.1" 200 1592
+2023-05-07 03:29:45,570 django.request ERROR    Internal Server Error: /templates/Server.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 93, in CON
+    server_program(s)
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 23, in server_program
+    server_socket.bind((host, port))
+OSError: [WinError 10048] ќбычно разрешаетс€ только одно использование адреса сокета (протокол/сетевой адрес/порт)
+2023-05-07 03:29:45,572 django.server ERROR    "GET /templates/Server.html HTTP/1.1" 500 74603
+2023-05-07 03:30:08,105 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-05-07 03:30:13,732 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:30:20,757 django.server INFO     "POST / HTTP/1.1" 200 1592
+2023-05-07 03:30:25,082 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 680
+2023-05-07 03:30:25,442 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:30:25,813 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592
+2023-05-07 03:30:25,814 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:41:02,865 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-05-07 03:41:04,419 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:41:13,599 django.server INFO     "POST / HTTP/1.1" 200 1592
+2023-05-07 03:41:19,877 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:41:20,313 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 681
+2023-05-07 03:41:20,710 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592
+2023-05-07 03:41:20,711 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679
+2023-05-07 03:41:34,996 django.server INFO     "GET / HTTP/1.1" 200 1592
+2023-05-07 03:55:41,739 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\settings.py changed, reloading.
+2023-05-07 03:55:42,909 django.utils.autoreload INFO     Watching for file changes with StatReloader 
+2023-05-07 03:56:41,318 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\settings.py changed, reloading. 
+2023-05-07 03:56:42,011 django.utils.autoreload INFO     Watching for file changes with StatReloader django.utils.autoreload
+2023-05-07 03:56:46,919 django.server INFO     "GET / HTTP/1.1" 200 1592 django.server
+2023-05-07 03:56:59,756 django.server INFO     "POST / HTTP/1.1" 200 1592 django.server
+2023-05-07 03:57:03,857 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679 django.server
+2023-05-07 03:57:04,388 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679 django.server
+2023-05-07 03:57:04,958 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679 django.server
+2023-05-07 03:57:04,958 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592 django.server
+2023-05-07 03:58:53,907 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\settings.py changed, reloading. django.utils.autoreload
+2023-05-07 03:58:54,656 django.utils.autoreload INFO     Watching for file changes with StatReloader django.utils.autoreload autoreload.py
+2023-05-07 03:59:03,619 django.server INFO     "GET / HTTP/1.1" 200 1592 django.server basehttp.py
+2023-05-07 03:59:17,597 django.server INFO     "POST / HTTP/1.1" 200 1592 django.server basehttp.py
+2023-05-07 03:59:20,808 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679 django.server basehttp.py
+2023-05-07 03:59:21,194 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679 django.server basehttp.py
+2023-05-07 03:59:21,633 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592 django.server basehttp.py
+2023-05-07 03:59:21,634 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679 django.server basehttp.py
+2023-05-07 04:00:49,698 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading. django.utils.autoreload autoreload.py
+2023-05-07 04:00:50,306 django.utils.autoreload INFO     Watching for file changes with StatReloader django.utils.autoreload autoreload.py
+2023-05-07 04:00:56,792 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading. django.utils.autoreload autoreload.py
+2023-05-07 04:00:57,339 django.utils.autoreload INFO     Watching for file changes with StatReloader django.utils.autoreload autoreload.py
+2023-05-07 04:00:58,819 django.server INFO     "GET / HTTP/1.1" 200 1592 django.server basehttp.py
+2023-05-07 04:01:12,876 django.server INFO     "POST / HTTP/1.1" 200 1592 django.server basehttp.py
+2023-05-07 04:01:15,319 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679 django.server basehttp.py
+2023-05-07 04:01:15,792 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 679 django.server basehttp.py
+2023-05-07 04:01:16,170 django.server INFO     "GET /templates/Client.html HTTP/1.1" 200 678 django.server basehttp.py
+2023-05-07 04:01:16,170 django.server INFO     "GET /templates/Server.html HTTP/1.1" 200 1592 django.server basehttp.py
+2023-05-07 04:03:33,037 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\settings.py changed, reloading. django.utils.autoreload autoreload.py
+2023-05-07 04:03:33,974 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2023-05-07 04:04:25,972 django.utils.autoreload INFO     C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\settings.py changed, reloading.
+INFO 2023-05-07 04:04:26,627 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:04:30,482 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:04:39,745 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:04:42,493 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:04:42,806 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:04:43,200 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-07 04:04:43,201 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:06:01,733 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:06:02,407 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:06:03,520 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:06:13,572 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:06:15,944 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:06:16,312 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:06:16,656 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-07 04:06:16,657 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:10:40,646 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:10:41,260 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:10:54,424 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:10:55,925 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:11:04,134 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:11:06,055 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:11:08,910 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:11:09,168 django.server.handle_error:81- - Broken pipe from ('127.0.0.1', 58524)
+INFO 2023-05-07 04:11:09,170 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:16:09,924 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:16:10,496 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:16:11,870 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:16:12,043 django.server.log_message:212- "GET /static/style.css HTTP/1.1" 304 0
+INFO 2023-05-07 04:16:18,110 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:16:20,435 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:16:20,852 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:16:21,135 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:16:21,135 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-07 04:18:28,873 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:18:33,805 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:18:40,126 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:18:43,860 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:18:44,229 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 681
+INFO 2023-05-07 04:18:44,562 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:18:44,563 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-07 04:19:39,069 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:19:39,815 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:19:52,565 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:19:53,159 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:20:04,792 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:20:05,473 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:20:20,136 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:20:20,817 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:20:25,524 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:20:32,956 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:20:35,100 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:20:35,316 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:20:35,635 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-07 04:20:35,636 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:22:30,074 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:22:30,642 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:22:30,646 log.<module>:10- info message
+INFO 2023-05-07 04:22:31,968 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:22:41,745 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:22:45,699 log.CLI:111- 14
+INFO 2023-05-07 04:22:45,700 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:22:45,924 log.CLI:111- 25
+INFO 2023-05-07 04:22:45,925 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:22:46,120 log.CLI:111- 3
+INFO 2023-05-07 04:22:46,121 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-07 04:22:46,121 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:24:28,298 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:24:28,935 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:24:28,939 log.<module>:10- info message
+INFO 2023-05-07 04:24:34,442 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:24:34,450 log.<module>:10- info message
+INFO 2023-05-07 04:24:36,435 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:24:42,170 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:24:44,612 log.CLI:111- 14
+INFO 2023-05-07 04:24:44,614 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:24:44,977 log.CLI:111- 25
+INFO 2023-05-07 04:24:44,978 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:24:45,432 log.CLI:111- 3
+INFO 2023-05-07 04:24:45,435 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-07 04:24:45,438 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 678
+INFO 2023-05-07 04:26:30,013 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:26:30,015 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:26:30,681 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:26:30,681 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:26:30,686 log.<module>:10- info message
+INFO 2023-05-07 04:26:30,693 log.<module>:10- info message
+INFO 2023-05-07 04:26:34,180 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:26:45,669 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 04:26:47,530 log.CLI:112-  ACCEPTED14
+INFO 2023-05-07 04:26:47,531 log.CON:98-  SENT14
+INFO 2023-05-07 04:26:47,532 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:26:47,875 log.CLI:112-  ACCEPTED25
+INFO 2023-05-07 04:26:47,876 log.CON:98-  SENT25
+INFO 2023-05-07 04:26:47,877 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:26:48,209 log.CLI:112-  ACCEPTED36
+INFO 2023-05-07 04:26:48,209 log.CON:98-  SENT36
+INFO 2023-05-07 04:26:48,211 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-07 04:26:48,211 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-07 04:27:12,403 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:27:12,415 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-07 04:27:13,039 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:27:13,044 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 04:27:13,050 log.<module>:10- info message
+INFO 2023-05-07 04:27:13,051 log.<module>:10- info message
+INFO 2023-05-07 18:27:15,197 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 18:27:15,201 log.<module>:10- info message
+INFO 2023-05-07 18:27:21,241 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 18:27:21,400 django.server.log_message:212- "GET /static/style.css HTTP/1.1" 304 0
+INFO 2023-05-07 18:27:32,950 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 18:27:37,343 log.CON:98-  SENT: asdfdfsd
+INFO 2023-05-07 18:27:37,343 log.CLI:112-  ACCEPTED: asdfdfsd
+INFO 2023-05-07 18:27:37,344 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 685
+INFO 2023-05-07 18:29:26,697 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-07 18:29:26,704 log.<module>:10- info message
+INFO 2023-05-07 18:29:30,717 django.server.log_message:212- "GET / HTTP/1.1" 200 1592
+INFO 2023-05-07 18:29:42,705 django.server.log_message:212- "POST / HTTP/1.1" 200 1592
+INFO 2023-05-07 18:29:48,636 log.CLI:112-  ACCEPTED: asdsdfqwe
+INFO 2023-05-07 18:29:48,637 log.CON:98-  SENT: asdsdfqwe
+INFO 2023-05-07 18:29:48,662 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 686
+INFO 2023-05-07 18:29:50,214 log.CLI:112-  ACCEPTED: dasfsdfwerq
+INFO 2023-05-07 18:29:50,214 log.CON:98-  SENT: dasfsdfwerq
+INFO 2023-05-07 18:29:50,216 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 688
+INFO 2023-05-07 18:29:51,994 log.CLI:112-  ACCEPTED: dfssdfwqer
+INFO 2023-05-07 18:29:51,994 log.CON:98-  SENT: dfssdfwqer
+INFO 2023-05-07 18:29:51,998 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 687
+INFO 2023-05-07 18:29:51,998 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1592
+INFO 2023-05-10 09:47:55,018 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 09:47:55,418 log.<module>:10- info message
+INFO 2023-05-10 09:48:02,941 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 09:48:02,950 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 09:48:03,465 django.server.log_message:212- "GET /static/style.css HTTP/1.1" 304 0
+INFO 2023-05-10 09:48:03,511 django.server.log_message:212- "GET /static/images/bacground.jpg HTTP/1.1" 304 0
+INFO 2023-05-10 09:48:15,927 django.server.log_message:212- "POST / HTTP/1.1" 200 1611
+ERROR 2023-05-10 09:48:23,742 django.request.log_response:241- Internal Server Error: /templates/Client.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 106, in CLI
+    client_socket.connect((host, port))
+ConnectionRefusedError: [WinError 10061] ѕодключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+INFO 2023-05-10 09:48:23,747 django.server.handle_error:81- - Broken pipe from ('127.0.0.1', 56749)
+INFO 2023-05-10 09:48:27,292 log.CON:98-  SENT: 14
+INFO 2023-05-10 09:48:27,292 log.CLI:112-  ACCEPTED: 14
+INFO 2023-05-10 09:48:27,322 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-10 09:48:28,840 log.CLI:112-  ACCEPTED: 25
+INFO 2023-05-10 09:48:28,841 log.CON:98-  SENT: 25
+INFO 2023-05-10 09:48:28,844 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-10 09:48:30,419 log.CLI:112-  ACCEPTED: 36
+INFO 2023-05-10 09:48:30,419 log.CON:98-  SENT: 36
+INFO 2023-05-10 09:48:30,427 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1611
+INFO 2023-05-10 09:48:30,428 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 679
+INFO 2023-05-10 13:37:42,928 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 13:37:42,932 log.<module>:10- info message
+INFO 2023-05-10 13:37:44,983 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:37:44,986 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:37:58,516 django.server.log_message:212- "POST / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:38:02,391 log.CLI:112-  ACCEPTED: qwerref
+INFO 2023-05-10 13:38:02,391 log.CON:98-  SENT: qwerref
+INFO 2023-05-10 13:38:02,392 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 698
+INFO 2023-05-10 13:38:04,061 log.CLI:112-  ACCEPTED: qwcve
+INFO 2023-05-10 13:38:04,061 log.CON:98-  SENT: qwcve
+INFO 2023-05-10 13:38:04,062 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 696
+INFO 2023-05-10 13:38:05,884 log.CLI:112-  ACCEPTED: qwfe
+INFO 2023-05-10 13:38:05,884 log.CON:98-  SENT: qwfe
+INFO 2023-05-10 13:38:05,886 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 695
+INFO 2023-05-10 13:38:05,886 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1611
+ERROR 2023-05-10 13:38:13,083 django.request.log_response:241- Internal Server Error: /templates/Client.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 106, in CLI
+    client_socket.connect((host, port))
+ConnectionRefusedError: [WinError 10061] ѕодключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+INFO 2023-05-10 13:38:13,084 django.server.handle_error:81- - Broken pipe from ('127.0.0.1', 63789)
+INFO 2023-05-10 13:39:58,126 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:05,664 django.server.log_message:212- "POST / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:09,080 log.CLI:112-  ACCEPTED: qwersfd
+INFO 2023-05-10 13:40:09,080 log.CON:98-  SENT: qwersfd
+INFO 2023-05-10 13:40:09,081 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 698
+INFO 2023-05-10 13:40:11,603 log.CLI:112-  ACCEPTED: qweradf
+INFO 2023-05-10 13:40:11,603 log.CON:98-  SENT: qweradf
+INFO 2023-05-10 13:40:11,604 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 698
+INFO 2023-05-10 13:40:13,397 log.CLI:112-  ACCEPTED: qweradf
+INFO 2023-05-10 13:40:13,398 log.CON:98-  SENT: qweradf
+INFO 2023-05-10 13:40:13,399 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 698
+INFO 2023-05-10 13:40:13,399 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:32,583 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 13:40:32,586 log.<module>:10- info message
+INFO 2023-05-10 13:40:51,993 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:52,666 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:52,873 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:53,030 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:53,221 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:53,456 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:54,094 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:40:54,966 django.server.log_message:212- "GET / HTTP/1.1" 200 1611
+INFO 2023-05-10 13:41:25,484 django.server.log_message:212- "GET / HTTP/1.1" 200 1636
+INFO 2023-05-10 13:41:39,924 django.server.log_message:212- "GET / HTTP/1.1" 200 1636
+INFO 2023-05-10 13:41:47,006 django.server.log_message:212- "POST / HTTP/1.1" 200 1636
+INFO 2023-05-10 13:41:49,378 log.CLI:112-  ACCEPTED: 146
+INFO 2023-05-10 13:41:49,379 log.CON:98-  SENT: 146
+INFO 2023-05-10 13:41:49,380 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 719
+INFO 2023-05-10 13:41:50,986 log.CLI:112-  ACCEPTED: 25
+INFO 2023-05-10 13:41:50,987 log.CON:98-  SENT: 25
+INFO 2023-05-10 13:41:50,987 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 718
+INFO 2023-05-10 13:41:53,113 log.CLI:112-  ACCEPTED: 36
+INFO 2023-05-10 13:41:53,113 log.CON:98-  SENT: 36
+INFO 2023-05-10 13:41:53,115 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 718
+INFO 2023-05-10 13:41:53,115 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1636
+INFO 2023-05-10 17:17:42,590 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:17:42,597 log.<module>:10- info message
+INFO 2023-05-10 17:17:48,542 django.server.log_message:212- "GET / HTTP/1.1" 200 1636
+INFO 2023-05-10 17:18:52,457 django.server.log_message:212- "POST / HTTP/1.1" 200 1636
+INFO 2023-05-10 17:18:55,138 log.CON:98-  SENT: Cl_1Cl_4Cl_7
+INFO 2023-05-10 17:18:55,139 log.CLI:112-  ACCEPTED: Cl_1Cl_4Cl_7
+INFO 2023-05-10 17:18:55,154 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 728
+INFO 2023-05-10 17:18:55,575 log.CLI:112-  ACCEPTED: Cl_2Cl_5Cl_8
+INFO 2023-05-10 17:18:55,575 log.CON:98-  SENT: Cl_2Cl_5Cl_8
+INFO 2023-05-10 17:18:55,577 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 728
+INFO 2023-05-10 17:18:56,148 log.CON:98-  SENT: Cl_3Cl_6
+INFO 2023-05-10 17:18:56,151 log.CLI:112-  ACCEPTED: Cl_3Cl_6
+INFO 2023-05-10 17:18:56,153 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1636
+INFO 2023-05-10 17:18:56,154 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 724
+INFO 2023-05-10 17:27:52,894 django.server.log_message:212- "GET / HTTP/1.1" 200 1636
+INFO 2023-05-10 17:28:02,990 django.server.log_message:212- "POST / HTTP/1.1" 200 1636
+INFO 2023-05-10 17:28:07,978 log.CON:98-  SENT: Cl_1Cl_4Cl_7
+INFO 2023-05-10 17:28:07,978 log.CLI:112-  ACCEPTED: Cl_1Cl_4Cl_7
+INFO 2023-05-10 17:28:07,979 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 728
+INFO 2023-05-10 17:28:08,760 log.CLI:112-  ACCEPTED: Cl_2Cl_5Cl_8
+INFO 2023-05-10 17:28:08,762 log.CON:98-  SENT: Cl_2Cl_5Cl_8
+INFO 2023-05-10 17:28:08,763 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 728
+INFO 2023-05-10 17:28:09,588 log.CLI:112-  ACCEPTED: Cl_3Cl_6
+INFO 2023-05-10 17:28:09,588 log.CON:98-  SENT: Cl_3Cl_6
+INFO 2023-05-10 17:28:09,593 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1636
+INFO 2023-05-10 17:28:09,594 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 724
+INFO 2023-05-10 17:28:49,280 django.server.log_message:212- "GET / HTTP/1.1" 200 1636
+INFO 2023-05-10 17:29:00,268 django.server.log_message:212- "POST / HTTP/1.1" 200 1636
+INFO 2023-05-10 17:29:03,298 log.CLI:112-  ACCEPTED: йцукук234у
+INFO 2023-05-10 17:29:03,300 log.CON:98-  SENT: йцукук234у
+INFO 2023-05-10 17:29:03,303 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 733
+INFO 2023-05-10 17:29:03,758 log.CLI:112-  ACCEPTED: аукй1234
+INFO 2023-05-10 17:29:03,759 log.CON:98-  SENT: аукй1234
+INFO 2023-05-10 17:29:03,760 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 728
+INFO 2023-05-10 17:29:04,433 log.CLI:112-  ACCEPTED: ак1
+INFO 2023-05-10 17:29:04,433 log.CON:98-  SENT: ак1
+INFO 2023-05-10 17:29:04,434 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 721
+INFO 2023-05-10 17:29:05,044 log.CON:98-  SENT: цуецкп
+INFO 2023-05-10 17:29:05,047 log.CLI:112-  ACCEPTED: цуецкп
+INFO 2023-05-10 17:29:05,049 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1636
+INFO 2023-05-10 17:29:05,049 django.server.log_message:212- "GET /templates/Client.html HTTP/1.1" 200 728
+INFO 2023-05-10 17:30:17,648 django.server.log_message:212- "GET / HTTP/1.1" 200 1636
+INFO 2023-05-10 17:34:43,820 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\urls.py changed, reloading.
+INFO 2023-05-10 17:34:46,589 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:34:46,604 log.<module>:10- info message
+INFO 2023-05-10 17:34:51,895 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:34:51,907 log.<module>:10- info message
+INFO 2023-05-10 17:34:53,692 django.server.log_message:212- "GET / HTTP/1.1" 200 1734
+INFO 2023-05-10 17:34:56,780 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1734
+INFO 2023-05-10 17:35:18,621 django.server.log_message:212- "GET / HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:18,641 django.server.log_message:212- "GET / HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:20,440 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:21,992 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:22,600 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:22,777 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:22,948 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:23,070 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:24,777 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:24,985 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:25,164 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:25,370 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:35:25,579 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:36:13,424 django.server.log_message:212- "POST / HTTP/1.1" 200 1759
+ERROR 2023-05-10 17:36:17,495 django.request.log_response:241- Internal Server Error: /templates/Server.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 97, in CON
+    server_program(s)
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 27, in server_program
+    server_socket.bind((host, port))
+OSError: [WinError 10048] ќбычно разрешаетс€ только одно использование адреса сокета (протокол/сетевой адрес/порт)
+ERROR 2023-05-10 17:36:17,538 django.request.log_response:241- Internal Server Error: /templates/Server.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 97, in CON
+    server_program(s)
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 27, in server_program
+    server_socket.bind((host, port))
+OSError: [WinError 10048] ќбычно разрешаетс€ только одно использование адреса сокета (протокол/сетевой адрес/порт)
+ERROR 2023-05-10 17:36:17,544 django.request.log_response:241- Internal Server Error: /templates/Server.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 97, in CON
+    server_program(s)
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 27, in server_program
+    server_socket.bind((host, port))
+OSError: [WinError 10048] ќбычно разрешаетс€ только одно использование адреса сокета (протокол/сетевой адрес/порт)
+ERROR 2023-05-10 17:36:17,566 django.request.log_response:241- Internal Server Error: /templates/Server.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 97, in CON
+    server_program(s)
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 27, in server_program
+    server_socket.bind((host, port))
+OSError: [WinError 10048] ќбычно разрешаетс€ только одно использование адреса сокета (протокол/сетевой адрес/порт)
+INFO 2023-05-10 17:36:17,594 django.server.handle_error:81- - Broken pipe from ('127.0.0.1', 64506)
+INFO 2023-05-10 17:36:17,598 django.server.handle_error:81- - Broken pipe from ('127.0.0.1', 64507)
+INFO 2023-05-10 17:36:17,604 django.server.handle_error:81- - Broken pipe from ('127.0.0.1', 64505)
+INFO 2023-05-10 17:36:17,606 django.server.handle_error:81- - Broken pipe from ('127.0.0.1', 64502)
+ERROR 2023-05-10 17:36:17,635 django.request.log_response:241- Internal Server Error: /templates/Server.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 97, in CON
+    server_program(s)
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 27, in server_program
+    server_socket.bind((host, port))
+OSError: [WinError 10048] ќбычно разрешаетс€ только одно использование адреса сокета (протокол/сетевой адрес/порт)
+INFO 2023-05-10 17:36:17,653 django.server.handle_error:81- - Broken pipe from ('127.0.0.1', 64508)
+ERROR 2023-05-10 17:36:17,706 django.request.log_response:241- Internal Server Error: /templates/Server.html
+Traceback (most recent call last):
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\new\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 97, in CON
+    server_program(s)
+  File "C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py", line 27, in server_program
+    server_socket.bind((host, port))
+OSError: [WinError 10048] ќбычно разрешаетс€ только одно использование адреса сокета (протокол/сетевой адрес/порт)
+ERROR 2023-05-10 17:36:17,709 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 500 77323
+INFO 2023-05-10 17:36:24,846 django.server.log_message:212- "POST / HTTP/1.1" 200 1759
+INFO 2023-05-10 17:36:29,375 django.server.log_message:212- "POST / HTTP/1.1" 200 1759
+INFO 2023-05-10 17:37:59,829 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-10 17:38:01,586 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:38:01,597 log.<module>:10- info message
+INFO 2023-05-10 17:38:30,206 django.server.log_message:212- "GET / HTTP/1.1" 200 1759
+INFO 2023-05-10 17:38:32,584 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:38:33,246 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:38:33,802 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:39:53,648 django.server.log_message:212- "GET / HTTP/1.1" 200 1759
+INFO 2023-05-10 17:39:56,117 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:39:56,913 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:39:57,511 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:39:57,946 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:39:58,275 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:39:58,624 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:39:58,958 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1759
+INFO 2023-05-10 17:40:24,423 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:40:24,434 log.<module>:10- info message
+INFO 2023-05-10 17:40:34,887 django.server.log_message:212- "GET / HTTP/1.1" 200 1764
+INFO 2023-05-10 17:40:38,565 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:40:39,408 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:40:40,015 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:40:40,631 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:40:41,167 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:40:41,671 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:40:41,980 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:40:42,263 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:41:03,858 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-10 17:41:05,299 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:41:05,309 log.<module>:10- info message
+INFO 2023-05-10 17:42:08,316 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-10 17:42:10,036 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:42:10,046 log.<module>:10- info message
+INFO 2023-05-10 17:42:13,015 django.server.log_message:212- "GET / HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:15,309 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:15,880 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:16,340 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:17,174 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:17,526 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:17,693 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:17,825 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:17,956 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:18,059 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:18,185 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:18,292 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:42:18,416 django.server.log_message:212- "GET /templates/Server.html HTTP/1.1" 200 1764
+INFO 2023-05-10 17:43:47,104 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\OS_LABA6_SERVER\urls.py changed, reloading.
+INFO 2023-05-10 17:43:48,722 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:43:48,749 log.<module>:10- info message
+INFO 2023-05-10 17:43:59,976 django.server.log_message:212- "GET / HTTP/1.1" 200 1761
+INFO 2023-05-10 17:44:02,075 django.server.log_message:212- "GET /templates/new.html HTTP/1.1" 200 394
+INFO 2023-05-10 17:44:25,675 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-10 17:44:27,776 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:44:27,785 log.<module>:10- info message
+INFO 2023-05-10 17:44:28,416 django.server.log_message:212- "GET / HTTP/1.1" 200 1761
+INFO 2023-05-10 17:44:28,420 django.server.log_message:212- "GET / HTTP/1.1" 200 1761
+INFO 2023-05-10 17:44:30,055 django.server.log_message:212- "GET /templates/new.html HTTP/1.1" 200 399
+INFO 2023-05-10 17:44:44,988 django.utils.autoreload.trigger_reload:266- C:\Users\Ёдгар\PyCharmProjects\OS_LABA6_SERVER\Server\views.py changed, reloading.
+INFO 2023-05-10 17:44:46,780 django.utils.autoreload.run_with_reloader:668- Watching for file changes with StatReloader
+INFO 2023-05-10 17:44:46,791 log.<module>:10- info message
+INFO 2023-05-10 17:44:51,255 django.server.log_message:212- "GET / HTTP/1.1" 200 1761
+INFO 2023-05-10 17:44:52,840 django.server.log_message:212- "GET /templates/new.html HTTP/1.1" 200 402
